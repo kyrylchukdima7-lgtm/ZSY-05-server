@@ -1,0 +1,355 @@
+body{
+    font-family: 'Montserrat';
+    background-color: white;
+}
+
+.main-container{
+    width: 1920px;
+    background-color: white;
+    margin: 40px auto;
+    height: auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 1);
+}
+
+.header{
+    height: 160px;
+    display:flex;
+    flex-direction: row;
+    background-color: #183319;
+}
+
+.header-img{
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.header-text-zsy{
+    width: 99px;
+    height: 56px;
+    margin-left: 24px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    font-style: italic;
+    color: #18881B;
+}
+
+.header-text-zsy-05{
+    width: 99px;
+    height: 56px;
+    margin-left: 12px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    font-style: italic;
+    color: #C71BBB;
+}
+
+.header-ul{
+    display:flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top: 66px;
+    list-style: none;
+}
+
+.header-text-ul{
+    color: #fff;
+    font-size: 24px;
+    margin-right: 60px;
+}
+
+.golovna {
+    height: 1100px;
+    background-image: url(img/glav.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 200px; /* ← смещение вниз всех элементов */
+}
+
+.golovna-btn {
+    margin-top: 0; /* ← убираем коллапсирующий отступ */
+}
+
+
+.golovna-btn{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 88px;
+    border-radius: 30px;
+    background-color: #18881B;
+    border-color: #0F6011;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 710px;
+    margin-top: 0;
+}
+
+.golovna-btn-img{
+    height: 60px;
+    width: 60px;
+    margin-top: 14px;
+    margin-left: 30px;
+}
+
+.golovna-btn-text{
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 24px;
+    margin-left: 32px;
+    margin-top: 24px;
+}
+
+.golovna-text{
+    font-family: 'Montserrat';
+    color: #18881B;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 900;
+}
+
+.golovna-text-mel{
+    font-family: 'Montserrat';
+    color: #C71BBB;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 600;
+}
+
+.golovna-text-text{
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 24px;
+    margin-top: 456px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.golovna-btn{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 88px;
+    border-radius: 30px;
+    background-color: #18881B;
+    border-color: #0F6011;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: 710px;
+    margin-top: 0;
+}
+
+.golovna-btn-img{
+    height: 60px;
+    width: 60px;
+    margin-top: 14px;
+    margin-left: 30px;
+}
+
+.golovna-btn-text{
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 24px;
+    margin-left: 32px;
+    margin-top: 24px;
+}
+
+/* Затемняем фон */
+.golovna::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* 40% затемнение */
+    z-index: 1;
+}
+
+/* Делаем контент ярким поверх затемнения */
+.golovna > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+
+.for-us{
+    height: 700px;
+    background-color: #183319;
+    margin-top: -40px;
+
+}
+
+.for_us_h1{
+    font-family: 'Montserrat';
+    color: #18881B;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 900;
+    line-height: normal;
+    font-style: italic;
+    padding-top: 80px;
+}
+
+.for-us-text{
+    font-family: 'Montserrat';
+    color: #00E808;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    line-height: normal;
+    font-style: italic;
+    margin-top: 40px;
+}
+
+.for-us-mel{
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 600;
+    line-height: normal;
+    font-style: italic;
+    margin-top: 200px;
+}
+
+
+
+
+.pidrozdil{
+    height: 2200px;
+    background-image: url(img/plats.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.pidrozdil-h1{
+    font-family: 'Montserrat';
+    color: #18881B;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 900;
+    line-height: normal;
+    font-style: italic;
+
+}
+
+.pidrozdil-text{
+    font-family: 'Montserrat';
+    color: #00E808;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    line-height: normal;
+    font-style: italic;
+}
+
+.pidrozdil-glav{
+    flex-direction: row;
+    display: flex;
+    margin-top: 80px;
+}
+
+.pidrozdil-card{
+    width: 800px;
+    height: 480px;
+    background-color: #004802;
+    border-radius: 30px;
+    border-color: #0F6011;
+    border-width: 5px;
+    border-style: solid;
+    margin-left: 96px;
+    margin-right: 100px;
+
+}
+
+.pidrozdil-card-img-text{
+    flex-direction: row;
+    display: flex;
+}
+
+.pidrozdil-card-img{
+    width: 140px;
+    height: 140px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.pidrozdil-card-text{
+    font-size: 24px;
+    color: #07BC0D;
+    margin-left: 200px;
+    margin-top: 60px;
+    line-height: normal;
+    font-style: italic;
+}
+
+.pidrozdil-card-text-two{
+    font-size: 20px;
+    color: #00E808;
+    margin-left: 40px;
+    margin-top: 24px;
+    line-height: normal;
+    font-style: italic;
+}
+
+.pidrozdil-card-kyr{
+    font-size: 24px;
+    color: #00E808;
+    margin-left: 40px;
+    margin-top: 80px;
+    line-height: normal;
+    font-style: italic;
+}
+
+
+
+
+
+.Kerivnitstvo{
+    height: 4557px;
+    background-color: #183319;
+    margin-top: -40px;
+}
+
+.Kerivnitstvo-card{
+    width: 352px;
+    height: 364px;
+    background-image: url(img/piksel.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.vumoga{
+    height: 5726px;
+}
+
+.zvanna{
+    height: 7327px;
+
+}
+
+.galerea{
+    height: 8668px;
+}
