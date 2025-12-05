@@ -223,6 +223,7 @@ body{
     line-height: normal;
     font-style: italic;
     margin-top: 200px;
+    margin-left: 160px;
 }
 
 
@@ -352,4 +353,5 @@ body{
 
 .galerea{
     height: 8668px;
+
 }
